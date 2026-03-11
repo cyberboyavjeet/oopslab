@@ -14,7 +14,7 @@ public class File1 {
                 System.out.println("File already exists");
             }
 
-        } catch (IOException ex) {
+        } catch (Exception ex) {
             System.out.println("Error: " + ex.getMessage());
         }
 
