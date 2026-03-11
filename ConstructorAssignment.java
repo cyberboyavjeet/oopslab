@@ -20,8 +20,9 @@ class ConstructorAssignment
     public static void main(String [] arg)
     {
         Scanner input = new Scanner(System.in);
+      
         System.out.println("Enter the ")
-        int a= input.
-       Student obj=  
+       // int a= input.
+       //Student obj=  
     }
 }
