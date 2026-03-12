@@ -1,4 +1,4 @@
-class Employee
+public class Employee
 {
     private int empID;
     private String empName;
