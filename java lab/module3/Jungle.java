@@ -1,6 +1,7 @@
 class Animal
 {
     public String animal_Name;
+    
     public void setAnimalName(String animal_Name){
         this.animal_Name=animal_Name;
     }
