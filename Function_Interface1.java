@@ -2,8 +2,8 @@
 //  new FunctinalInterface
 interface First {
     public void disp();
-    default void output();
-    static void show();
+    //default void output();
+    //static void show();
 
     
 }

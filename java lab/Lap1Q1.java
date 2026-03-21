@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-class Lap1Q1
+public class Lap1Q1
 {
-    static void main(String [] arg)
+    public static void main(String [] arg)
     {
-        System.err.println("Enter the String");
         Scanner obj= new Scanner(System.in);
-        String St=obj.next
+        System.err.println("Enter the String");
+        String St=obj.next();
+        System.out.println(St);
     }
 }

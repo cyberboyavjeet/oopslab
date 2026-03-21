@@ -8,7 +8,7 @@ public class Arrayinjava
         num[2]=3;
         num[3]=4;
         num[4]=5;
-        num[5]=6;*/
+        num[5]=6;
         //Print the element of array
         System.out.println("Element are:");
         for(int i=0;i<6;++i)
