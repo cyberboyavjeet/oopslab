@@ -6,7 +6,7 @@ abstract class Animal{
     void eat(){//Abstraction can have a normal Method
         System.out.println(name+" is Eating");
     }
-    abstract void bark();//must be and Abstract class of any return type
+    abstract void bark();//must be an Abstract class of any return type
 }
 class Lion extends Animal{
     Lion(String name){//Constructor for setting the name of Animal
@@ -18,7 +18,7 @@ class Lion extends Animal{
 }
 public class Abtraction_ {
     public static void main(String[] args) {
-        Lion ln=new Lion("The King");
+        Animal ln=new Lion("The King");
         ln.eat();
         ln.bark();
     }
