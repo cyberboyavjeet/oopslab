@@ -6,8 +6,9 @@ public class SwitchCForJava8 {
             case 2->"Tuesday";
             case 3->"Wednesday";
             case 4->"Thusday";
-            case 5->"Saturday";
-            case 6->"Sunday";
+            case 5->"Friday";
+            case 6->"Saturday";
+            case 7->"Sunday";
             default ->"Invaild";
 
         };
